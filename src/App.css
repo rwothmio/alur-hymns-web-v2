@@ -1,0 +1,19 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFF4E0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #f3dfb9;
+}
+
+@media screen and (max-width: 600px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
